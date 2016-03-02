@@ -1,0 +1,34 @@
+.footer{
+	height: 40px;
+	background-color: #f95e04;
+	color: white;
+	text-align: center;
+
+}
+.footer p{
+	padding-top: 10px;
+}
+.logo {
+	height: auto;
+	width: 400px;
+}
+.nav{
+	background-color: #3D3D3D;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-family: 'Amaranth', sans-serif;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+.nav li:hover{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e40227;
+	border-radius: 7px 7px 7px 7px;
+}
+.header ul a:hover{
+    color:white;
+    text-decoration: none;
+}	

@@ -1,0 +1,118 @@
+.header ul li{
+	display: inline;
+	padding-left: 60px;
+	padding-right: 60px;	
+}
+
+#searchbox {
+	float: right;
+}
+
+#search, 
+#submit {
+    float: right, center;
+}
+
+#search {
+    padding: 5px 9px;
+    height: 23px;
+    width: 380px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+/* ----------------------- */
+
+#submit
+{       
+    background-color:#f6c5a9;
+    /*background-image: linear-gradient(#95d788, #6cbb6b);*/
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+   /*border-color: #7eba7c #578e57 #447d43;*/
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Amarant, Arial, Helvetica;
+    color: #23441e;    
+    /*text-shadow: 0 1px 0 rgba(255,255,255,0.5);*/
+}
+
+#submit:hover {       
+    /*background-color: #95d788;
+    background-image: linear-gradient(#6cbb6b, #95d788);*/
+}   
+
+#submit:active {       
+   /* background: #95d788;*/
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
+    border-style: none;     
+}
+
+#submit::-moz-focus-inner {
+       border: 0;
+   }
+.book img{
+	max-width: 140px;
+	height: 200px;
+}
+.book {
+	padding-left: 25px ;
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+
+.book button{
+	float: right;
+}
+.book .title{
+	text-align: center;
+}
+.category .book{
+	display: inline-block; 
+
+}
+.footer{
+	height: 40px;
+	background-color: #f95e04;
+	color: white;
+	text-align: center;
+
+}
+.footer p{
+	padding-top: 10px;
+}
+.logo {
+	height: auto;
+	width: 400px;
+}
+.nav{
+	background-color: #3D3D3D;
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-family: 'Amaranth', sans-serif;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+}
+.nav li:hover{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e40227;
+	border-radius: 7px 7px 7px 7px;
+}
+.header ul a:hover{
+    color:white;
+    text-decoration: none;
+}
